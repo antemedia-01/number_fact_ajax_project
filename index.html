@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Numbers Fact</title>
+    <style>
+        * {
+            fontsize: 1.2em
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: teal;
+        }
+
+        #number {
+            width: 13%;
+            height: 4%;
+        }
+
+        .container {
+            border: 2px solid tomato;
+            margin-top: 2%;
+            width: 30%;
+            height: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Numbers Fact</h1>
+    <input type="number" name="num" id="number" placeholder="Enter number to get fact">
+    <div class="container">
+        <h3 id="content"></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
